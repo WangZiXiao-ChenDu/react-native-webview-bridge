@@ -19,6 +19,7 @@ var ReactNative = require('react-native');
 var invariant = require('invariant');
 var keyMirror = require('keymirror');
 var resolveAssetSource = require('react-native/Libraries/Image/resolveAssetSource');
+var WebView = require('react-native-webview');
 
 var {
   ActivityIndicator,
@@ -26,7 +27,6 @@ var {
   StyleSheet,
   Text,
   View,
-  WebView,
   requireNativeComponent,
   UIManager,
   NativeModules: {
